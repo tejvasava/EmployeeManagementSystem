@@ -26,6 +26,7 @@ public class DepartmentController {
 	
 	@PostMapping("/add")
 	public ResponseVO<?> addDepartment(DepartmentVO departmentvo) throws IOException {
+		System.out.println("test jenkins");
 		return departmentService.addDepartment(departmentvo);
 	}
 	
