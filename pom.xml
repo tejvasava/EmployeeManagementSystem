@@ -12,6 +12,7 @@
 	<groupId>com.react</groupId>
 	<artifactId>EmployeeManagementSystem</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<name>EmployeeManagementSystem</name>
 	<description>EmployeeManagementSystem project for Spring Boot with React</description>
 	<properties>
@@ -83,6 +84,9 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		
+	<finalName> employee-management-system</finalName>
+	
 	</build>
 
 </project>
